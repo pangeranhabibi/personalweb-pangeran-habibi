@@ -53,7 +53,7 @@
   }
   h3{
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
   }
   p{
     color: #fff;
@@ -88,7 +88,7 @@
     background-image: url(profile\ habibi.jpg);
 }
 .card2{
-    background-image: url(logo\ instagram.jpeg);
+    background-image: url(web\ sekolah.png);
 }
 .card3{
     background-image: url(logo\ linkdin.jpeg);
@@ -106,4 +106,23 @@ h5{
 .card p{
     text-shadow: 0 0 15px #000;
     font-size:8px;
+}
+@media screen and (max-width:360px) {
+  .container{
+    background-image:url(rin\ for\ background.png); 
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  .logo{
+    margin-top: auto;
+    margin-right: 20px;
+  }
+
+  .row{
+    display: inline-block;
+    margin-left: 35px;
+  }
+  .h3{
+    font-size: 10px;
+  }
 }
